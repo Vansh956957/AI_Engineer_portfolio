@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
-import TelemetryBar from './components/TelemetryBar';
-import ProjectCard from './components/ProjectCard';
-import { PROJECTS, TIMELINE_EVENTS, SKILL_CATEGORIES, CODING_STATS } from './constants';
-import { Experience } from './types';
+import Navbar from './components/Navbar.tsx';
+import TelemetryBar from './components/TelemetryBar.tsx';
+import ProjectCard from './components/ProjectCard.tsx';
+import { PROJECTS, TIMELINE_EVENTS, SKILL_CATEGORIES, CODING_STATS } from './constants.tsx';
+import { Experience } from './types.ts';
 
 const App: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
