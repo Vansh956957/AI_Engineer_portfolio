@@ -91,7 +91,7 @@ const App: React.FC = () => {
           <div className="lg:col-span-5 relative flex justify-center lg:justify-end">
             <div className="absolute -inset-10 bg-blue-500/10 rounded-full blur-[100px]"></div>
             <div className="relative w-72 h-96 lg:w-[32rem] lg:h-[42rem] dark:bg-slate-900 bg-slate-50 rounded-[3rem] border dark:border-white/10 border-slate-200 overflow-hidden shadow-2xl rotate-2 transition-transform hover:rotate-0 duration-700">
-              <img src="profile.png" alt="Vansh Rewaskar" className="w-full h-full object-cover scale-100 grayscale hover:grayscale-0 transition-all duration-1000" onError={(e) => { (e.target as HTMLImageElement).src = "components/1767336031118.jpg"; }} />
+              <img src="profile.png" alt="Vansh Rewaskar" className="w-full h-full object-cover scale-100 grayscale hover:grayscale-0 transition-all duration-1000" onError={(e) => { (e.target as HTMLImageElement).src = "public/1767336031118.jpg"; }} />
             </div>
           </div>
         </div>
