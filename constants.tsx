@@ -1,3 +1,4 @@
+
 import { Project, Experience, SkillCategory, CodingStat } from './types';
 
 export const TIMELINE_EVENTS: Experience[] = [
@@ -107,7 +108,7 @@ export const PROJECTS: Project[] = [
     ],
     tech: ['LangChain', 'Python', 'Google Gemini', 'Groq LPU'],
     metrics: [
-      '40% Increase in factual verification',
+      'Significant increase in factual verification',
       'Zero-latency response orchestration',
       'Reliable enterprise-grade truth scores'
     ],
@@ -125,7 +126,7 @@ export const PROJECTS: Project[] = [
     ],
     tech: ['React', 'AWS Bedrock', 'Terraform', 'Node.js'],
     metrics: [
-      '60% Acceleration in deployment cycles',
+      'Major acceleration in deployment cycles',
       'Zero manual configuration error rate',
       'Scalable visual infrastructure management'
     ],
@@ -140,7 +141,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   },
   {
     title: 'Cloud Infrastructure',
-    skills: ['AWS (Bedrock, SageMaker)', 'Terraform', 'CloudWatch', 'MLOps', 'Distributed Systems']
+    skills: ['AWS (Bedrock, SageMaker)', 'CloudWatch', 'MLOps']
   },
   {
     title: 'Analytical Intelligence',
