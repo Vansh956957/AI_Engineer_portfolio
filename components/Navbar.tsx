@@ -56,7 +56,7 @@ const Navbar: React.FC<NavbarProps> = ({ onHireMeClick, isShattering, isConnecti
           
           {isConnecting && (
             <div className="absolute inset-0 z-20 flex items-center justify-center pointer-events-none">
-               <span className="font-mono text-2xl font-black animate-tactical-connect tracking-tighter">>></span>
+               <span className="font-mono text-2xl font-black animate-tactical-connect tracking-tighter"></span>
             </div>
           )}
         </button>
